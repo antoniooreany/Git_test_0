@@ -7,5 +7,6 @@ public class HelloWorld {
         System.out.println("Hello World again!");
         System.out.println("New feature!");
         System.out.println("Adding for New feature!");
+        System.out.println("Hello World again in master!");
     }
 }
