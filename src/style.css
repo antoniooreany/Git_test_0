@@ -2,6 +2,10 @@ body {
     background: cornflowerblue;
     align-self: center;
 }
+p {
+    font-family: Algerian, serif;
+    font-size: large;
+}
 
 p {
     
