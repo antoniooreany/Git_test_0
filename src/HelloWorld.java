@@ -16,6 +16,6 @@ public class HelloWorld {
     }
 
     public String getString(){
-        return "abc";
+        return "xyz";
     }
 }
