@@ -24,5 +24,11 @@ public class HelloWorld {
         return "xyz";
     }
 //>>>>>>> new_feature
+
+
+    @Override
+    protected Object clone() throws CloneNotSupportedException {
+        return super.clone();
+    }
 }
 
