@@ -18,4 +18,10 @@ public class HelloWorld {
     public String getString(){
         return "xyz";
     }
+
+    @Override
+    protected Object clone() throws CloneNotSupportedException {
+        System.out.println("Object cloned");
+        return super.clone();
+    }
 }
