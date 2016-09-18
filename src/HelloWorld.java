@@ -9,4 +9,13 @@ public class HelloWorld {
         System.out.println("Adding for New feature!");
         System.out.println("Hello World again in master!");
     }
+
+    @Override
+    public int hashCode() {
+        return super.hashCode();
+    }
+
+    public String getString(){
+        return "abc";
+    }
 }
