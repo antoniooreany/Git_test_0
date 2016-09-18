@@ -9,10 +9,11 @@ public class HelloWorld {
         System.out.println("Adding for New feature!");
         System.out.println("Hello World again in master!");
     }
-<<<<<<< HEAD
-    public String getMasterString(){
+//<<<<<<< HEAD
+    public String getMasterString() {
         return "master String";
-=======
+    }
+//=======
 
     @Override
     public int hashCode() {
@@ -21,7 +22,7 @@ public class HelloWorld {
 
     public String getNew_featureString(){
         return "xyz";
->>>>>>> new_feature
     }
+//>>>>>>> new_feature
 }
 
