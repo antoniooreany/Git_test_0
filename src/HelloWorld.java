@@ -9,5 +9,8 @@ public class HelloWorld {
         System.out.println("Adding for New feature!");
         System.out.println("Hello World again in master!");
     }
+    public String getString(){
+        return "master String";
+    }
 }
 
